@@ -26,7 +26,3 @@ def get_balanced(s):
                     open_count =0
                     closed_count=0
     return max_balanced
-
-input_string = "("
-max_bal = get_balanced(input_string)
-print(max_bal)
